@@ -1,0 +1,16 @@
+let rec f_n (a) = 
+        ( a >= 0 & a < 10) -> a | f_n (a/10)  //get the first number
+and
+rec power (b) = 
+        ( b >= 0 & b < 10) -> 0 | ( (power (b/10))+1)
+in
+let temp (c) = 
+        (c - ( (f_n (c) ) * 10 ** (power c) ) )/10
+in
+let rec l_n (d) = 
+        ( d >= 0 & d < 10) -> d | l_n (d - ( ( f_n (d) ) * 10 ** (power d) ) ) //get the last number
+in
+let rec Pal (n) = 
+        (n < 10 & n >= 0) -> 'palindrome' | ((f_n (n)) eq (l_n (n))) -> (Pal (temp (n))) | 'Not_a_palindrome' //recursively check if the first and last numbers are same.
+in
+Print ( Pal (1001))

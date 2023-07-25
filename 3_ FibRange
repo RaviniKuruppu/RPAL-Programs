@@ -1,0 +1,10 @@
+let rec f(a)= a eq 1 -> 1 
+		      | a <= 0 -> 0
+		      | f(a-1) + f(a-2) 
+in
+let fib (n,m) = range_fun n m nil 1
+		where rec range_fun n m L a = (m < temp) -> L | (temp < n) -> (range_fun n m L (a+1)) | (range_fun n m ( L aug temp) (a+1) ) 
+        where temp = f(a)
+in
+Print ( fib (0,100))
+

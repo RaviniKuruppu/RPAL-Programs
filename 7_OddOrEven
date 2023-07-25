@@ -1,0 +1,2 @@
+let odd_even(a)= (a/2)*2 eq a->'Even'|'Odd'
+in Print(odd_even(-8))

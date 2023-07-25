@@ -1,0 +1,3 @@
+let pos_neg(X)= X < 0 -> 'Negative' |X > 0 -> 'positive'|'Zero'
+in 
+Print(pos_neg(-15))
