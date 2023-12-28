@@ -10,4 +10,4 @@
  
    ## To run a program
    
-   .\rpal.exe <filename>
+   ### .\rpal.exe fileName
