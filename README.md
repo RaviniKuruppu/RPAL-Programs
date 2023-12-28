@@ -1,13 +1,26 @@
-# RPAL-Programs
-1. program to give a number, determines whether it is positive or negative.
-2. program to determine the greatest among three inputted numbers.
-3. program to print the Fibonacci series within a given range.
-4. program to calculate the factorial of a given number.
-5. program to check if a given number is a palindrome.
-6. program to display all palindrome numbers within a given range.
-7. program to check if a given number is odd or even.
-8. program to calculate the sum of the first 'n' numbers.
- 
-   ## To run a program
-   
-   ### .\rpal.exe fileName
+# RPAL Programs 💻
+
+This collection includes various RPAL programs designed to perform fundamental tasks. Here's a brief overview of the available programs:
+
+1. **Determine Positivity/Negativity:** Identify whether a given number is positive or negative.
+
+2. **Find the Greatest Among Three Numbers:** Compare and find the largest number among three inputted values.
+
+3. **Generate Fibonacci Series:** Print the Fibonacci series within a specified range.
+
+4. **Calculate Factorial:** Compute the factorial of a given number.
+
+5. **Check Palindrome:** Verify if a given number is a palindrome.
+
+6. **Display Palindrome Numbers in a Range:** List all palindrome numbers within a specified range.
+
+7. **Check Odd or Even:** Determine if a given number is odd or even.
+
+8. **Calculate Sum of First 'n' Numbers:** Find the sum of the first 'n' numbers.
+
+## Running a Program
+
+To execute a program, follow these steps:
+
+1. Use the command `.\rpal.exe fileName`, where `fileName` represents the name of the RPAL program file you want to run.
+
