@@ -8,6 +8,6 @@
 7. program to check if a given number is odd or even.
 8. program to calculate the sum of the first 'n' numbers.
  
-   To run a program
+   ## To run a program
    
    .\rpal.exe <filename>
